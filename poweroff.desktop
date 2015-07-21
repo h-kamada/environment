@@ -4,6 +4,6 @@ Type=Application
 Terminal=true
 Icon[ja_JP]=/home/h-kamada/env/PowerOff.png
 Name[ja_JP]=poweroff
-Exec=/bin/bash -i -c ". /home/h-kamada/env/terminate.sh"
+Exec=/bin/bash -i -c "(. /home/h-kamada/env/terminate.sh) |tee -a /home/h-kamada/terminatelog; sudo poweroff "
 Name=poweroff
 Icon=/home/h-kamada/env/PowerOff.png
