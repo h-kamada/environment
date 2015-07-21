@@ -1,5 +1,5 @@
 sudo aptitude update
-sudo aptitude upgrade
+sudo aptitude -y upgrade
 cd /home/h-kamada/ros/hydro/src
 wstool update
 catkin build
