@@ -1,4 +1,4 @@
-echo "executing poweroffwithupdate. Are you sure? to poweroff? [y/N]"
+echo "executing poweroffwithupdate. Are you sure? to poweroffwithupdate? [y/N]"
 read answer
 
 flag="false"
@@ -9,7 +9,7 @@ function error {
 trap error ERR
 
 if [ "$answer" == "yes" -o "$answer" == "y" ]; then
-    . /home/h-kamada/environment/update.sh
+    (. /home/h-kamada/environment/update.sh) |tee -a /home/h-kamada/terminatelog
 fi
 
 if [ \( "$answer" == "yes" -o "$answer" == "y" \) -a "$flag" == "false" ]; then
