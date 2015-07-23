@@ -4,6 +4,6 @@ Type=Application
 Terminal=true
 Icon[ja_JP]=/home/h-kamada/environment/update.png
 Name[ja_JP]=update
-Exec=/bin/bash -i -c "(. /home/h-kamada/environment/terminate.sh) |tee -a /home/h-kamada/terminatelog"
+Exec=/bin/bash -i -c "(. /home/h-kamada/environment/update.sh) |tee -a /home/h-kamada/terminatelog"
 Name=update
 Icon=/home/h-kamada/environment/update.png

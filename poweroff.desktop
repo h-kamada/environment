@@ -4,6 +4,6 @@ Type=Application
 Terminal=true
 Icon[ja_JP]=/home/h-kamada/environment/PowerOff.png
 Name[ja_JP]=poweroff
-Exec=/bin/bash -i -c "sudo poweroff"
+Exec=/bin/bash -i -c ". /home/h-kamada/environment/poweroff.sh"
 Name=poweroff
 Icon=/home/h-kamada/environment/PowerOff.png
