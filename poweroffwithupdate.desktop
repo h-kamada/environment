@@ -2,8 +2,8 @@
 Version=1.0
 Type=Application
 Terminal=true
-Icon[ja_JP]=/home/h-kamada/environment/PowerOff.png
-Name[ja_JP]=poweroff
+Icon[ja_JP]=/home/h-kamada/environment/poweroffwithupdate.png
+Name[ja_JP]=poweroff with update
 Exec=/bin/bash -i -c "(. /home/h-kamada/environment/terminate.sh) |tee -a /home/h-kamada/terminatelog; sudo poweroff "
-Name=poweroff
-Icon=/home/h-kamada/environment/PowerOff.png
+Name=poweroff with update
+Icon=/home/h-kamada/environment/poweroffwithupdate.png
