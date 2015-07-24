@@ -9,7 +9,7 @@ function error {
 trap error ERR
 
 if [ "$answer" == "yes" -o "$answer" == "y" ]; then
-    (. /home/h-kamada/environment/update.sh) |tee -a /home/h-kamada/terminatelog
+    (. /home/h-kamada/environment/update.sh) |tee -a /home/h-kamada/updatelog
 fi
 
 if [ \( "$answer" == "yes" -o "$answer" == "y" \) -a "$flag" == "false" ]; then
