@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Icon[ja_JP]=/home/h-kamada/environment/PowerOff.png
+Name[ja_JP]=brightness up
+Exec=/bin/bash -i -c ". /home/h-kamada/environment/brightnessup.sh"
+Name=poweroff
+Icon=/home/h-kamada/environment/PowerOff.png
